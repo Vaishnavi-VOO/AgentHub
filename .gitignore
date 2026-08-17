@@ -141,3 +141,24 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+agents/.venv/
+
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Python cache
+*.pyo
+*.pyd
